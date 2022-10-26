@@ -1,0 +1,20 @@
+@import url('body.css');
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+@import url('responsividade-header.css');
+@import url('responsividade-main.css');
+@import url('responsividade-footer.css');
+
+:root {
+    --azul: hsl(223, 87%, 63%);
+    --azul_hover: hsla(223, 87%, 63%, 0.795);
+    --azul_claro: hsl(223, 100%, 88%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza: hsl(0, 0%, 59%);
+    --cinza_borda: hsla(0, 0%, 59%, 0.4);
+    --preto_azulado: hsl(209, 33%, 12%);
+    --vermelho: hsl(354, 100%, 66%);
+
+    --fonte: 'Libre Franklin', sans-serif;
+}

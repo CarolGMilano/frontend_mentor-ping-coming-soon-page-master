@@ -1,0 +1,78 @@
+.corpo {
+    width: 100vw;
+}
+
+.container__titulos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.titulos__principal {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--cinza);
+}
+
+.principal__destaque {
+    font-weight: 700;
+    color: var(--preto_azulado);
+}
+
+.titulos__secundario {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: var(--preto_azulado);
+}
+
+.container__inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 4rem 2rem;
+    row-gap: .7rem;
+}
+
+.container__inputText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.inputs__text,
+.inputs__btn {
+    padding: .9rem;
+    border-radius: 25px;
+}
+
+.inputs__text {
+    border: 1px solid var(--azul_claro);
+    width: 100%;
+}
+
+.inputs__text::placeholder {
+    font-family: var(--fonte);
+    padding-left: 1rem;
+}
+
+.inputs__btn {
+    font-family: var(--fonte);
+    border: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: var(--azul) 0px 25px 20px -20px;
+}
+
+.container__ilustracao {
+    margin: 0 auto 8rem auto;
+    background: url('../img/illustration-dashboard.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 90%;
+    height: 200px;
+}

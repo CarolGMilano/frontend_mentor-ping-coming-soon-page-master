@@ -1,0 +1,35 @@
+.rodape {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .8rem;
+}
+
+.rodape__lista--link {
+    border: 1px solid var(--cinza_borda);
+    padding: .6rem;
+    border-radius: 100%;
+}
+
+.rodape__lista--link svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--azul);
+    vertical-align: middle;
+}
+
+.rodape__copyright {
+    text-align: center;
+    font-size: 15px;
+    color: var(--cinza);
+    font-weight: 400;
+}
+

@@ -1,0 +1,47 @@
+@media screen and (min-width: 700px) {
+    .container__titulos {
+        row-gap: .8rem;
+    }
+
+    .titulos__principal {
+        font-size: 40px;
+    }
+
+    .container__inputs {
+        flex-direction: row;
+        align-items: center;
+        margin: 2rem 0 4rem 0;
+        justify-content: center;
+        column-gap: 1rem;
+    }
+    
+    .container__inputText {
+        position: relative;
+    }
+
+    .inputs__text {
+        width: 350px;
+    }
+
+    .inputs__btn {
+        width: 200px;
+        transition: .5s;
+    }
+
+    .inputs__btn:hover {
+        cursor: pointer;
+        background-color: var(--azul_hover);
+    }
+
+    .container__ilustracao {
+        width: 600px;
+        height: 400px;
+        margin-bottom: 3rem;
+    }
+
+    .erro {
+        position: absolute;
+        left: 40px;
+        top: 55px;
+    }
+}

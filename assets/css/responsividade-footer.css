@@ -1,0 +1,13 @@
+@media screen and (min-width: 700px) {
+    .rodape {
+        margin-bottom: 0;
+    }
+
+    .rodape__lista--link {
+        transition: .3s;
+    }
+
+    .rodape__lista--link:hover {
+        background-color: var(--azul_claro);
+    }
+}

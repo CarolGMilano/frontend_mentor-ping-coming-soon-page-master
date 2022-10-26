@@ -1,0 +1,19 @@
+body {
+    font-family: var(--fonte);
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bordaVermelha {
+    box-shadow: var(--vermelho) 0px 0px 3px 3px;
+}
+
+.erro {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--vermelho);
+    font-weight: 400;
+}
